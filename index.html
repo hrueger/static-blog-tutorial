@@ -9,8 +9,14 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         .headerImg {
-            height: calc(100vh - 60px);
-            object-fit: cover;
+            /*height: calc(100vh - 60px);
+            object-fit: cover;*/
+            width: 500px;
+            cursor: pointer;
+        }
+        /* Diese Regel macht was sinnvolles */
+        .headerImg:hover {
+            border: 5px dotted grey;
         }
     </style>
 </head>
@@ -36,18 +42,18 @@
                         <a class="nav-link disabled" href="#">Disabled</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!--<form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form>-->
             </div>
         </nav>
     </div>
     <div class="container-fluid">
-        <img src="header-img.jpg" class="w-100 headerImg" alt="Header Bild">
+        <img src="header-img.jpg" class="headerImg" alt="Header Bild">
 
     </div>
-    <div class="container">
+    <div class="container fancyText">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet venenatis magna. Cras sed purus accumsan, dictum ex vel, vestibulum dui. Mauris eros diam, imperdiet quis odio vitae, mattis faucibus risus. Phasellus eget auctor tortor, vel pellentesque nisi. Fusce cursus sem quis sem fringilla, non condimentum dui lobortis. Suspendisse nunc tortor, laoreet id lacus ac, tempus hendrerit ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer sit amet eleifend nulla. Nunc vitae vehicula diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer condimentum pretium lacinia. Sed nec enim eget nibh egestas consequat. Nulla tincidunt nunc enim, blandit luctus orci mollis ac. Maecenas dolor neque, consequat a vulputate id, gravida a erat. Suspendisse mattis hendrerit suscipit. Phasellus erat sem, imperdiet non tellus eget, pellentesque rhoncus nulla.
 
         Vestibulum volutpat nec turpis vitae tempus. In ac ante sed mi convallis ornare ut et ligula. Curabitur nulla metus, aliquam quis mattis eu, pharetra ut leo. Maecenas ut vehicula dolor. Nullam vitae luctus quam. Vestibulum vehicula tellus metus, at auctor ipsum blandit et. Aenean sed nisl quis magna aliquam commodo.
